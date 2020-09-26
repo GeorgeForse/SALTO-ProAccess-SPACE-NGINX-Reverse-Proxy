@@ -1,5 +1,5 @@
-# SALTO ProAccess Space NGINX Reverse Proxy
-NGINX Reverse Proxy configuration for SALTO ProAccess Space, with fully functioning PPD and Card Reader/Writer thanks to an additional WebSocket proxy. This assumes that you install SALTO ProAccess Space using the default ports (8100-8102).
+# SALTO ProAccess SPACE NGINX Reverse Proxy
+NGINX Reverse Proxy configuration for SALTO ProAccess SPACE, with fully functioning PPD and Card Reader/Writer thanks to an additional WebSocket proxy. This assumes that you install SALTO ProAccess Space using the default ports (8100-8102).
 
 You will need to generate your own SSL Certificates for your desired hostname, and then copy them to your NGINX SSL Store. I've left the default path in the config file for ease of use.
 
